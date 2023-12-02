@@ -1,4 +1,4 @@
-const inject = function() {
+function inject() {
     document.head.innerHTML += '<style>:root {
         --app-margin: 12px;
       }
@@ -107,6 +107,8 @@ const inject = function() {
         </div>
       </div>';
 }
+
+inject();
 
 // Calling showTime function at every second
 setInterval(showTime, 1000);
