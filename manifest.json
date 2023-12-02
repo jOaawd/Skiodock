@@ -1,0 +1,14 @@
+{
+    "name": "SkioDock",
+    "version": "1.0.0",
+    "description": "Restore the ChromeOS dock to Skiovox",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["contentScript.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "manifest_version": 3,
+    "author": "Sampurna Chapagain"
+}
