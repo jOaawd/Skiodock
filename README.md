@@ -6,8 +6,7 @@ A chrome extension designed to be used with the chromebook skiovox exploit that 
 ## Known Issues (listed from most to least severe)
 - Quite a few websites are broken. I'm not quite sure why at the moment but it's something to do with the JS.
 - The Files and Settings app don't work
-- Some elements on websites overlap with the dock (this is an easy fix but I don't have the energy to do it right now)
-- The dock adds padding to the bottom of each page (pretty sure this is another easy fix, but again, I don't have the energy to fix it currently)
+- The dock adds space to the bottom of each page (pretty sure this is another easy fix, but again, I don't have the energy to fix it currently)
 
 If you find any other bugs it would be really helpful if you submitted them to the issues tab! Also if you find any solutions to these bugs, feel free to make a pull request!
 
