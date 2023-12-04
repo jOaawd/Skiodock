@@ -50,3 +50,14 @@ function showTime() {
 }
  
 showTime();
+
+const filesUrl = "chrome://file-manager";
+const settingsUrl = "chrome://os-settings";
+
+function files() {
+    chrome.tabs.create({url: filesUrl});
+}
+
+function settings() {
+    chrome.tabs.create({url: settingsUrl});
+}
