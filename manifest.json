@@ -10,5 +10,8 @@
         }
     ],
     "manifest_version": 3,
-    "author": "Sampurna Chapagain"
+    "author": "LagTheSystem",
+    "permissions": [
+        "tabs"
+    ]
 }

@@ -1,7 +1,7 @@
 function inject() {
 
 document.head.innerHTML += '<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,600,700"rel=stylesheet><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0"rel=stylesheet><link href=https://raw.githubusercontent.com/LagTheSystem/ChromeOS-Dock/main/style.css rel=stylesheet>'; 
-document.body.innerHTML += '<div id=dock><div id=launcher><div id=openBtn class=button><span class=material-symbols-outlined>radio_button_checked</span></div></div><div id=apps><a class="icon chrome"href=#><img src=https://raw.githubusercontent.com/LagTheSystem/ChromeOS-Dock/main/assets/chrome.svg></a><a class="icon files"href=chrome://file-manager target=_blank><img src=https://raw.githubusercontent.com/LagTheSystem/ChromeOS-Dock/main/assets/files.png></a><a class="icon settings"href=chrome://os-settings target=_blank><img src=https://raw.githubusercontent.com/LagTheSystem/ChromeOS-Dock/main/assets/settings.png></a></div><div id=info><div id=calendar class=button></div><div id=clock class=button></div></div></div>';
+document.body.innerHTML += '<div id=dock><div id=launcher><div id=openBtn class=button><span class=material-symbols-outlined>radio_button_checked</span></div></div><div id=apps><img class=icon id=chrome src=https://raw.githubusercontent.com/LagTheSystem/ChromeOS-Dock/main/assets/chrome.svg><img class=icon id=files src=https://raw.githubusercontent.com/LagTheSystem/ChromeOS-Dock/main/assets/files.png><img class=icon id=settings src=https://raw.githubusercontent.com/LagTheSystem/ChromeOS-Dock/main/assets/settings.png></div><div id=info><div id=calendar class=button></div><div id=clock class=button></div></div></div>';
 }
 
 inject();
