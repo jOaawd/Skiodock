@@ -12,6 +12,11 @@
     "manifest_version": 3,
     "author": "LagTheSystem",
     "permissions": [
-        "tabs"
+        "tabs",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
     ]
 }
